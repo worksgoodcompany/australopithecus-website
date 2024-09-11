@@ -9,7 +9,7 @@
   }
   
 #main-title {
-    font-size: 50px; /* Cambia el tamaño de la fuente */
+    font-size: 40px; /* Cambia el tamaño de la fuente */
     font-family: "Varela Round", sans-serif;
     color: white; /* Cambia el color del texto */
     font-style: bold; /* Cambia el estilo de la fuente a itálico */
@@ -109,9 +109,10 @@ a:hover {
 /* background image settings for video section */
 
 .video-container {
-    background-image: url("../images/2.png");
+    background-image: url("../images/8.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode:color-dodge;
 }
 
 /* background color setting */
@@ -461,7 +462,7 @@ p .section-text {
 /* colors text white */
 
 #video-text {
-    color: black;
+    color: white;
 }
 
 /* makes video centered and responsive */
@@ -488,7 +489,7 @@ video {
 /* basic font settings, positioning and removal of style, margin and padding from list */
 
 .social-list {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
     margin: 0px;
     padding: 0;
