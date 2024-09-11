@@ -1,21 +1,25 @@
 /*........................................................... General */
 
-@font-face {
-
-    /* Imports non-google font */
-    font-family: "Kalligraphia";
-    src: url("../fonts/Kalligraphia-D-OT_25803.ttf");
-
-}
-
-@import '~@fortawesome/fontawesome-free/css/all.css';
 
 /* Basic settings for main text font */
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#main-title {
+    font-size: 50px; /* Cambia el tamaño de la fuente */
+    font-family: "Varela Round", sans-serif;
+    color: white; /* Cambia el color del texto */
+    font-style: bold; /* Cambia el estilo de la fuente a itálico */
+}
+
 
 body {
 
 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
 
 }
@@ -26,7 +30,7 @@ a {
 
     color: white;
     text-decoration: none;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
 
 }
@@ -195,7 +199,7 @@ a:hover {
 /* sets font type for link items in mobile nav */
 
 .navbar a {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 /*alterations made to Bootstraps navbar-brand class for project specific navbar set up on mobile */
@@ -226,7 +230,7 @@ a:hover {
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
     color: white;
 }
@@ -242,7 +246,7 @@ a:hover {
 
 .lead.music-text {
     font-style: italic;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: white;
@@ -282,7 +286,7 @@ a:hover {
 /* sets font for section titles */
 
 .text-title {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 /* basic font settings */
@@ -379,12 +383,12 @@ body table {
 .dead-link {
     color: white;
     text-decoration: none;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
 }
 
 .label {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
     color: white;
     text-decoration: none;
@@ -474,7 +478,7 @@ video {
 /* basic font settings */
 
 .lead.social-text {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: underline;
@@ -504,6 +508,10 @@ video {
     color: black;
 }
 
+.fa-brands {
+    color: black;
+}
+
 
 /* styles newsletter subscription */
 
@@ -512,7 +520,7 @@ video {
     font-size: 14px;
     margin-top: 0em;
     text-align: center;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: 300;
     padding-top: 25px;
 }
@@ -602,8 +610,8 @@ input .email-box {
     
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
-        font-size: 35px;
-        font-family: "Kalligraphia", sans-serif;
+        font-size: 20px;
+        font-family: "Varela Round", sans-serif;
         color: white;
     }
     
@@ -620,7 +628,7 @@ input .email-box {
     
     .lead.music-text {
         font-style: italic;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-family: "Varela Round", sans-serif;
         font-weight: 300;
         font-size: 25px;
         color: white;
